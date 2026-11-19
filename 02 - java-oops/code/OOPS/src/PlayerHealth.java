@@ -24,7 +24,7 @@ class Player {
         this.health = newHealth;
     }
 
-    voud heal(int amountOfRecovery){
+    void heal(int amountOfRecovery){
         setHealth(health+amountOfRecovery);
     }
 }
